@@ -31,11 +31,6 @@ def webhook():
                 "color": 0x7289DA,
                 "fields": [
                     {
-                        "name": "Autor",
-                        "value": pusher,
-                        "inline": True
-                    },
-                    {
                         "name": "Enlace al Commit",
                         "value": f"[Ver Commit]({commit_url})",
                         "inline": False
